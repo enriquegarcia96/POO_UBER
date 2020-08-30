@@ -7,4 +7,11 @@ class Account {
      String email;
      String password;
 
+     // metodo contructor
+     public Account(String name, String document) {
+          this.name = name;
+          this.document = document;
+
+     }
+
 }
