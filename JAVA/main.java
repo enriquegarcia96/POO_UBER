@@ -3,13 +3,13 @@ class Main {
 
           // * llamo a mi constructo de la clase Account para asignarle el nombre y el
           // documento al driver
-          UberX uberX = new UberX("AMQ123", new Account("Diana Gonzales ", "PINK21"), "Honda", "Civic");
-          uberX.setPassenger(2);
+          UberX uberX = new UberX("AMQ123 ", new Account("Diana Gonzales ", "PINK21"), "Honda", "Civic");
+          uberX.setPassenger(4);
           uberX.printDataCar();
 
-          Car car2 = new Car("QWE567", new Account("Enrique García ", "RED323"));
-          // car2.passegenger = 3;
-          car2.printDataCar();
+          UberVan uberVan = new UberVan("JUW12 ", new Account("Omar Lopez", "OUJ90"));
+          uberVan.setPassenger(6);
+          uberVan.printDataCar();
 
      }
 }
