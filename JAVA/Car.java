@@ -18,6 +18,7 @@ class Car {
     // metodo para imprimir las propiedades del objeto
     void printDataCar() {
         if (passegenger != null) {
+
             System.out.println("License: " + license + "Diver: " + driver.name + "Passengers: " + passegenger);
 
         }
