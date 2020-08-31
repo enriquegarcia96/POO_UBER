@@ -3,9 +3,9 @@ import java.util.concurrent.Flow.Publisher;
 class Car {
 
     // atributos
-    Integer id;
-    String license;
-    Account driver; // porque hereda de la clase Account
+    private Integer id;
+    private String license;
+    private Account driver; // porque hereda de la clase Account
     private Integer passegenger;
 
     // constructor
@@ -22,10 +22,8 @@ class Car {
             System.out.println("License: " + license + "Diver: " + driver.name + "Passengers: " + passegenger);
 
         }
-        // imprimo del conductor
     }
 
-    // get
     public Integer getPassenger() {
         return passegenger;
     }
@@ -40,6 +38,30 @@ class Car {
             System.out.println("Necesitas asignar 4 pasajeros");
         }
 
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getLicense() {
+        return license;
+    }
+
+    public void setLicense(String license) {
+        this.license = license;
+    }
+
+    public Account getDriver() {
+        return driver;
+    }
+
+    public void setDriver(Account driver) {
+        this.driver = driver;
     }
 
 }
