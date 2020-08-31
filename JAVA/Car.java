@@ -19,16 +19,6 @@ class Car {
     void printDataCar() {
         if (passegenger != null) {
 
-
-
-
-
-
-
-
-
-
-
             System.out.println("License: " + license + "Diver: " + driver.name + "Passengers: " + passegenger);
 
         }
@@ -40,7 +30,6 @@ class Car {
         return passegenger;
     }
 
->>>>>>> Polimorfismo
     // permiten alterar este dato dentro de la clase
     public void setPassenger(Integer passenger) {
         // manejar la cantidad de pasajeros(validar)
