@@ -18,10 +18,21 @@ class Car {
     // metodo para imprimir las propiedades del objeto
     void printDataCar() {
         if (passegenger != null) {
-            // imprimo del conductor
+
+
+
+
+
+
+
+
+
+
+
             System.out.println("License: " + license + "Diver: " + driver.name + "Passengers: " + passegenger);
 
         }
+        // imprimo del conductor
     }
 
     // get
@@ -29,7 +40,7 @@ class Car {
         return passegenger;
     }
 
-    // *encapsulamiento
+>>>>>>> Polimorfismo
     // permiten alterar este dato dentro de la clase
     public void setPassenger(Integer passenger) {
         // manejar la cantidad de pasajeros(validar)
